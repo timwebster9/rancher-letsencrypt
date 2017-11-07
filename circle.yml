@@ -1,7 +1,7 @@
 machine:
   environment:
     IMPORT_PATH: "github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME"
-    DOCKER_HUB_URI: https://registry.hub.docker.com/u/janeczku/rancher-letsencrypt/trigger
+    DOCKER_HUB_URI: https://registry.hub.docker.com/u/timwebster9/rancher-letsencrypt/trigger
 
 general:
   build_dir: ../.go_workspace/src/github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
